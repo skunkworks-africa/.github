@@ -1,249 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="./css/footer.css" rel="stylesheet"/>
-<link href="./css/forms.css" rel="stylesheet"/>
-<link href="./css/header.css" rel="stylesheet"/>
-<link href="./css/main.css" rel="stylesheet"/>
-<link href="./css/sidebar.css" rel="stylesheet"/>
-<link href="https://github.com/skunkworksza/www/blob/main/assets/skunkworks/logo-skunkworks-trans%2040%20%C3%97%2040%20px.png?raw=true" rel="icon" type="image/png"/>
-<title>Welcome to Skunkworks: Innovative Technology and Education Solutions</title>
-<style>
-    /* General Styles */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        background-color: #121212;
-        color: #fff;
-    }
-    header {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-    }
-    header img {
-        max-width: 100%;
-        height: auto;
-    }
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    nav ul li {
-        margin: 0 15px;
-        position: relative;
-    }
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        display: block;
-        padding: 10px;
-    }
-    nav ul li ul {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #333;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        z-index: 1000;
-    }
-    nav ul li:hover ul {
-        display: block;
-    }
-    nav ul li ul li a {
-        padding: 10px 15px;
-    }
-    .section {
-        padding: 20px;
-        margin: 20px 0;
-    }
-    .welcome-section {
-        background-color: #ffffff;
-        text-align: center;
-        color: #000000;
-        padding: 20px;
-        box-shadow: none;
-    }
-    .welcome-section-content {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        border: 2px solid #2563EB; /* Light Blue Border */
-        border-radius: 8px;
-    }
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-    form {
-        display: flex;
-        flex-direction: column;
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    form input, form textarea, form button {
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 1em;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-    }
-    button {
-        background-color: #333;
-        color: #fff;
-        border: none;
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-    button:hover {
-        background-color: #555;
-    }
-    .partners-list {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-        text-align: center;
-    }
-    .partner-item {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .partner-item img {
-        max-width: 100%;
-        max-height: 100px;
-        object-fit: contain;
-    }
-    .statistics {
-        text-align: center;
-        margin-top: 20px;
-    }
-    .divider {
-        height: 2px;
-        background-color: #444;
-        margin: 20px 0;
-    }
-    .centered-container {
-        max-width: 800px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        border-radius: 8px;
-        text-align: center;
-        color: #000;
-    }
-    .libutton {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 7px;
-        text-align: center;
-        outline: none;
-        text-decoration: none !important;
-        color: #ffffff !important;
-        width: 200px;
-        height: 32px;
-        border-radius: 16px;
-        background-color: #ffffff;
-        font-family: "SF Pro Text", Helvetica, sans-serif;
-        margin: 10px auto;
-    }
-    .icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-    }
-    .service-icon {
-        width: 40px;
-        height: 40px;
-        display: block;
-        margin: 0 auto 10px auto;
-    }
-    /* Mobile Styles */
-    @media (max-width: 768px) {
-        .grid-container {
-            grid-template-columns: 1fr;
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="./css/footer.css" rel="stylesheet"/>
+    <link href="./css/forms.css" rel="stylesheet"/>
+    <link href="./css/header.css" rel="stylesheet"/>
+    <link href="./css/main.css" rel="stylesheet"/>
+    <link href="./css/sidebar.css" rel="stylesheet"/>
+    <link href="https://github.com/Skunkworks-Africa/www/blob/main/assets/skunkworks/logo-skunkworks-trans%2040%20%C3%97%2040%20px.png?raw=true" rel="icon" type="image/png"/>
+    <title>Welcome to Skunkworks: Innovative Technology and Education Solutions</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
         }
         nav ul {
-            flex-direction: column;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         nav ul li {
-            margin: 10px 0;
+            margin: 0 15px;
+            position: relative;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            z-index: 1000;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li a {
+            padding: 10px 15px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .welcome-section {
+            background-color: #ffffff;
+            text-align: center;
+            color: #000000;
+            padding: 20px;
+            box-shadow: none;
+        }
+        .welcome-section-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #2563EB; /* Light Blue Border */
+            border-radius: 8px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form input, form textarea, form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #555;
         }
         .partners-list {
-            grid-template-columns: 1fr;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            text-align: center;
         }
-    }
-</style>
-<link href="./css/sidebar.css" rel="stylesheet"/>
-<link href="./css/main.css" rel="stylesheet"/>
-<link href="./css/header.css" rel="stylesheet"/>
-<link href="./css/forms.css" rel="stylesheet"/>
-<link href="./css/footer.css" rel="stylesheet"/>
+        .partner-item {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .partner-item img {
+            max-width: 100%;
+            max-height: 100px;
+            object-fit: contain;
+        }
+        .statistics {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .divider {
+            height: 2px;
+            background-color: #444;
+            margin: 20px 0;
+        }
+        .centered-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            text-align: center;
+            color: #000;
+        }
+        .libutton {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 7px;
+            text-align: center;
+            outline: none;
+            text-decoration: none !important;
+            color: #ffffff !important;
+            width: 200px;
+            height: 32px;
+            border-radius: 16px;
+            background-color: #ffffff;
+            font-family: "SF Pro Text", Helvetica, sans-serif;
+            margin: 10px auto;
+        }
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+        .service-icon {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            .partners-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
 <header>
-<nav>
-<ul>
-<li><a href="./index.html"><img alt="Home" class="icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/container.svg"/>Home</a></li>
-<li>
-<a href="#"><img alt="Training" class="icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/intelligence.svg"/>Training</a>
-<ul>
-<li><a href="./blended-learning.html"><img alt="Blended Learning" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/learning/blended-learning.png?raw=true"/>Blended Learning</a></li>
-<li><a href="./course-development.html"><img alt="Course Development" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/learning/course-development.png?raw=true"/>Course Development</a></li>
-<li><a href="./project-mentoring.html"><img alt="Project Mentoring" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/learning/project-mentoring.png?raw=true"/>Project Mentoring</a></li>
-<li><a href="./performance-support.html"><img alt="Performance Support Tools" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/learning/performance-support.png?raw=true"/>Performance Support Tools</a></li>
-<li><a href="./training-programs.html"><img alt="Training Programs" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/learning/training-programs.png?raw=true"/>Training Programs</a></li>
-</ul>
-</li>
-<li>
-<a href="#"><img alt="Services" class="icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/container--microservices.svg"/>Services</a>
-<ul>
-<li><a href="./software-development.html"><img alt="Software Development" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/services/software-development.png?raw=true"/>Software Development</a></li>
-<li><a href="./hardware-software.html"><img alt="Hardware and Software" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/services/hardware-software.png?raw=true"/>HW/SW Solutions</a></li>
-<li><a href="./managed-cloud.html"><img alt="Managed Cloud Services" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/services/managed-cloud.png?raw=true"/>Managed Cloud</a></li>
-<li><a href="./technical-support.html"><img alt="Technical Support Services" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/services/technical-support.png?raw=true"/>Technical Support</a></li>
-<li><a href="./placement-recruitment.html"><img alt="Placements" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/services/placement-recruitment.png?raw=true"/>Placements</a></li>
-</ul>
-</li>
-<li>
-<a href="#"><img alt="Careers" class="icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/data--apis.svg"/>Careers</a>
-<ul>
-<li><a href="./job-posting.html"><img alt="Job Posting" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/careers/job-posting.png?raw=true"/>Job Posting</a></li>
-<li><a href="./candidate-screening.html"><img alt="Candidate Screening" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/careers/candidate-screening.png?raw=true"/>Candidate Screening</a></li>
-<li><a href="./interviews.html"><img alt="Interviews" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/careers/interviews.png?raw=true"/>Interviews</a></li>
-<li><a href="./job-offers.html"><img alt="Job Offers" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/careers/job-offers.png?raw=true"/>Job Offers</a></li>
-<li><a href="./perosacademy/"><img alt="Pero's Academy" class="icon" src="https://github.com/skunkworksza/www/blob/main/assets/careers/peros-academy.png?raw=true"/>Pero's Academy</a></li>
-</ul>
-</li>
-<li><a href="#contact"><img alt="Contact" class="icon" src="https://raw.githubusercontent.com/skunkworksza/www/b6c7c3e93995fd5c2a6c0979d90ead76d9ef98dd/assets/icons/email.svg"/>Contact</a></li>
-</ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="./index.html"><img alt="Home" class="icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/container.svg"/>Home</a></li>
+            <li>
+                <a href="#"><img alt="Training" class="icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/intelligence.svg"/>Training</a>
+                <ul>
+                    <li><a href="./blended-learning.html"><img alt="Blended Learning" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/learning/blended-learning.png?raw=true"/>Blended Learning</a></li>
+                    <li><a href="./course-development.html"><img alt="Course Development" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/learning/course-development.png?raw=true"/>Course Development</a></li>
+                    <li><a href="./project-mentoring.html"><img alt="Project Mentoring" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/learning/project-mentoring.png?raw=true"/>Project Mentoring</a></li>
+                    <li><a href="./performance-support.html"><img alt="Performance Support Tools" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/learning/performance-support.png?raw=true"/>Performance Support Tools</a></li>
+                    <li><a href="./training-programs.html"><img alt="Training Programs" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/learning/training-programs.png?raw=true"/>Training Programs</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img alt="Services" class="icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/container--microservices.svg"/>Services</a>
+                <ul>
+                    <li><a href="./software-development.html"><img alt="Software Development" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/services/software-development.png?raw=true"/>Software Development</a></li>
+                    <li><a href="./hardware-software.html"><img alt="Hardware and Software" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/services/hardware-software.png?raw=true"/>HW/SW Solutions</a></li>
+                    <li><a href="./managed-cloud.html"><img alt="Managed Cloud Services" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/services/managed-cloud.png?raw=true"/>Managed Cloud</a></li>
+                    <li><a href="./technical-support.html"><img alt="Technical Support Services" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/services/technical-support.png?raw=true"/>Technical Support</a></li>
+                    <li><a href="./placement-recruitment.html"><img alt="Placements" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/services/placement-recruitment.png?raw=true"/>Placements</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img alt="Careers" class="icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/data--apis.svg"/>Careers</a>
+                <ul>
+                    <li><a href="./job-posting.html"><img alt="Job Posting" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/careers/job-posting.png?raw=true"/>Job Posting</a></li>
+                    <li><a href="./candidate-screening.html"><img alt="Candidate Screening" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/careers/candidate-screening.png?raw=true"/>Candidate Screening</a></li>
+                    <li><a href="./interviews.html"><img alt="Interviews" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/careers/interviews.png?raw=true"/>Interviews</a></li>
+                    <li><a href="./job-offers.html"><img alt="Job Offers" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/careers/job-offers.png?raw=true"/>Job Offers</a></li>
+                    <li><a href="./perosacademy/"><img alt="Pero's Academy" class="icon" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/careers/peros-academy.png?raw=true"/>Pero's Academy</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact"><img alt="Contact" class="icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/b6c7c3e93995fd5c2a6c0979d90ead76d9ef98dd/assets/icons/email.svg"/>Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <section class="section welcome-section" id="welcome">
@@ -262,42 +257,42 @@
 <div class="grid-container">
 <a href="./blended-learning.html">
 <div>
-<img alt="Blended Learning" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/analyzes--data.svg"/>
+<img alt="Blended Learning" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/analyzes--data.svg"/>
 <h3>Blended Learning</h3>
 <p>Blended learning programs &amp; personalized learning paths.</p>
 </div>
 </a>
 <a href="./course-development.html">
 <div>
-<img alt="Course Development" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/cloud--data--services.svg"/>
+<img alt="Course Development" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/cloud--data--services.svg"/>
 <h3>Course Development</h3>
 <p>We provide custom eLearning courses to meet client objectives.</p>
 </div>
 </a>
 <a href="./project-mentoring.html">
 <div>
-<img alt="Project Mentoring" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/business--continuity.svg"/>
+<img alt="Project Mentoring" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/business--continuity.svg"/>
 <h3>Project Mentoring</h3>
 <p>Guided support through training engagements with our Project Mentoring.</p>
 </div>
 </a>
 <a href="./performance-support.html">
 <div>
-<img alt="Performance Support Tools" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/cloud--builder--professional--services.svg"/>
+<img alt="Performance Support Tools" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/cloud--builder--professional--services.svg"/>
 <h3>Performance Support Tools</h3>
 <p>We create custom job aids and guides to help employees apply new skills to real-world tasks.</p>
 </div>
 </a>
 <a href="./training-programs.html">
 <div>
-<img alt="Training Programs" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/key--users.svg"/>
+<img alt="Training Programs" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/key--users.svg"/>
 <h3>Training Programs</h3>
 <p>We offer training in soft skills, compliance, boot camps, and provide outsourcing services.</p>
 </div>
 </a>
 <a href="./lms.html">
 <div>
-<img alt="LMS" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/presentation.svg"/>
+<img alt="LMS" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/presentation.svg"/>
 <h3>LMS</h3>
 <p>Custom LMS development and mgmt. for efficient content delivery, tracking, and reporting.</p>
 </div>
@@ -311,28 +306,28 @@
 <div class="grid-container">
 <a href="./software-development.html">
 <div>
-<img alt="Software Development" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/code--syntax.svg"/>
+<img alt="Software Development" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/code--syntax.svg"/>
 <h3>Software Development</h3>
 <p>Our experienced developers design and develop custom software solutions. Our services include web and mobile app development, software development, and application modernization.</p>
 </div>
 </a>
 <a href="./hardware-software.html">
 <div>
-<img alt="Hardware and Software" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/server--operating-systems.svg"/>
+<img alt="Hardware and Software" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/server--operating-systems.svg"/>
 <h3>Hardware and Software</h3>
 <p>We provide hardware and software products from most of the major technology vendor giants, including servers, storage solutions, networking equipment, and software licenses.</p>
 </div>
 </a>
 <a href="./managed-cloud.html">
 <div>
-<img alt="Managed Cloud Services" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/hybrid--cloud--infrastructure.svg"/>
+<img alt="Managed Cloud Services" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/hybrid--cloud--infrastructure.svg"/>
 <h3>Managed Cloud Services</h3>
 <p>Our cloud-based solutions cater to businesses of all sizes. We offer mixed cloud models, and manage cloud infrastructure, security, disaster recovery, and cloud migration services.</p>
 </div>
 </a>
 <a href="./technical-support.html">
 <div>
-<img alt="Technical Support Services" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/repair--tools.svg"/>
+<img alt="Technical Support Services" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/repair--tools.svg"/>
 <h3>Technical Support Services</h3>
 <p>Our technical support team is dedicated to providing timely and effective solutions to ensure your systems run smoothly. We offer 24/7 support, troubleshooting, and maintenance services.</p>
 </div>
@@ -346,28 +341,28 @@
 <div class="grid-container">
 <a href="./job-posting.html">
 <div>
-<img alt="Job Posting" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/presentation.svg"/>
+<img alt="Job Posting" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/presentation.svg"/>
 <h3>Job Posting</h3>
 <p>Sourcing and advertising job openings to attract qualified candidates.</p>
 </div>
 </a>
 <a href="./candidate-screening.html">
 <div>
-<img alt="Candidate Screening" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/inspect--data.svg"/>
+<img alt="Candidate Screening" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/inspect--data.svg"/>
 <h3>Candidate Screening</h3>
 <p>Reviewing and filtering applications to identify the best matches.</p>
 </div>
 </a>
 <a href="./interviews.html">
 <div>
-<img alt="Interviews" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/user--analytics.svg"/>
+<img alt="Interviews" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/user--analytics.svg"/>
 <h3>Interviews</h3>
 <p>Conducting interviews to evaluate candidates' qualifications and fit.</p>
 </div>
 </a>
 <a href="./job-offers.html">
 <div>
-<img alt="Job Offers" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/ai--transparency.svg"/>
+<img alt="Job Offers" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/ai--transparency.svg"/>
 <h3>Job Offers</h3>
 <p>Making offers to selected candidates and negotiating terms.</p>
 </div>
@@ -382,61 +377,61 @@
 <div class="divider"></div>
 <div class="partners-list" id="partnersList">
 <a class="partner-item" data-name="AWS" href="aws.html">
-<img alt="AWS Logo" src="https://github.com/skunkworksza/www/blob/main/assets/aws/aws%20cloud.png?raw=true"/>
+<img alt="AWS Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/aws/aws%20cloud.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="Checkpoint" href="checkpoint.html">
-<img alt="Checkpoint Logo" src="https://github.com/skunkworksza/www/blob/main/assets/checkpoint/checkpoint-logo-stacked-large-blk.png?raw=true"/>
+<img alt="Checkpoint Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/checkpoint/checkpoint-logo-stacked-large-blk.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="Cisco" href="cisco.html">
-<img alt="Cisco Logo" src="https://raw.githubusercontent.com/skunkworksza/www/021c38cde4ad3a9ccf72b8b18042f580b195a3d6/assets/cisco/strategic-partner-logo-cisco-1.svg"/>
+<img alt="Cisco Logo" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/021c38cde4ad3a9ccf72b8b18042f580b195a3d6/assets/cisco/strategic-partner-logo-cisco-1.svg"/>
 </a>
 <a class="partner-item" data-name="CompTIA" href="comptia.html">
-<img alt="CompTIA Logo" src="https://github.com/skunkworksza/www/blob/main/assets/comptia/08212-capp-digital-badges_delivery-partner.jpg?raw=true"/>
+<img alt="CompTIA Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/comptia/08212-capp-digital-badges_delivery-partner.jpg?raw=true"/>
 </a>
 <a class="partner-item" data-name="Commvault" href="commvault.html">
-<img alt="Commvault Logo" src="https://github.com/skunkworksza/www/blob/main/assets/commvualt/commvualt.jpeg?raw=true"/>
+<img alt="Commvault Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/commvualt/commvualt.jpeg?raw=true"/>
 </a>
 <a class="partner-item" data-name="Dell" href="dell.html">
-<img alt="Dell Logo" src="https://raw.githubusercontent.com/skunkworksza/www/a1d437d3c21c968aa69d146b04703d7cecf5d838/assets/dell/strategic-partner-logo-dell-technologies-1.svg"/>
+<img alt="Dell Logo" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/a1d437d3c21c968aa69d146b04703d7cecf5d838/assets/dell/strategic-partner-logo-dell-technologies-1.svg"/>
 </a>
 <a class="partner-item" data-name="GitHub" href="github.html">
-<img alt="GitHub Logo" src="https://raw.githubusercontent.com/skunkworksza/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/github/github-mark.svg"/>
+<img alt="GitHub Logo" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/github/github-mark.svg"/>
 </a>
 <a class="partner-item" data-name="Google Cloud" href="googlecloud.html">
-<img alt="Google Cloud Logo" src="https://raw.githubusercontent.com/skunkworksza/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/google/google-cloud-logo-new.svg"/>
+<img alt="Google Cloud Logo" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/google/google-cloud-logo-new.svg"/>
 </a>
 <a class="partner-item" data-name="IBM" href="ibm.html">
-<img alt="IBM Logo" src="https://github.com/skunkworksza/www/blob/main/assets/ibm/IBM_Partner_Plus_silver_partner_mark_pos_black_RGB(103x80).jpg?raw=true"/>
+<img alt="IBM Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/ibm/IBM_Partner_Plus_silver_partner_mark_pos_black_RGB(103x80).jpg?raw=true"/>
 </a>
 <a class="partner-item" data-name="Red Hat" href="redhat.html">
-<img alt="Red Hat Logo" src="https://github.com/skunkworksza/www/blob/main/assets/redhat/redhat_logo.png?raw=true"/>
+<img alt="Red Hat Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/redhat/redhat_logo.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="Microsoft" href="microsoft.html">
-<img alt="Microsoft Logo" src="https://github.com/skunkworksza/www/blob/main/assets/microsoft/RWEDnc.png?raw=true"/>
+<img alt="Microsoft Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/microsoft/RWEDnc.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="VMware" href="vmware.html">
-<img alt="VMware Logo" src="https://raw.githubusercontent.com/skunkworksza/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/vmware/strategic-partners-logo-vmware-1.svg"/>
+<img alt="VMware Logo" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/c16c5586c66061112ffe4012073f564d9daa927d/assets/vmware/strategic-partners-logo-vmware-1.svg"/>
 </a>
 <a class="partner-item" data-name="Veritas" href="veritas.html">
-<img alt="Veritas Logo" src="https://github.com/skunkworksza/www/blob/main/assets/veritas/veritaz.png?raw=true"/>
+<img alt="Veritas Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/veritas/veritaz.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="Veeam" href="veeam.html">
-<img alt="Veeam Logo" src="https://github.com/skunkworksza/www/blob/main/assets/veeam/Veeam%20logo.jpeg?raw=true"/>
+<img alt="Veeam Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/veeam/Veeam%20logo.jpeg?raw=true"/>
 </a>
 <a class="partner-item" data-name="SAP" href="sap.html">
-<img alt="SAP Logo" src="https://github.com/skunkworksza/www/blob/main/assets/sap/SAP.jpeg?raw=true"/>
+<img alt="SAP Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/sap/SAP.jpeg?raw=true"/>
 </a>
 <a class="partner-item" data-name="Salesforce" href="salesforce.html">
-<img alt="Salesforce Logo" src="https://github.com/skunkworksza/www/blob/main/assets/salesforce/Salesforce-Logo.png?raw=true"/>
+<img alt="Salesforce Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/salesforce/Salesforce-Logo.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="OpenAI" href="openai.html">
-<img alt="OpenAI Logo" src="https://github.com/skunkworksza/www/blob/main/assets/openai/Open%20AI.jpeg?raw=true"/>
+<img alt="OpenAI Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/openai/Open%20AI.jpeg?raw=true"/>
 </a>
 <a class="partner-item" data-name="HashiCorp" href="hashicorp.html">
-<img alt="HashiCorp Logo" src="https://github.com/skunkworksza/www/blob/main/assets/hs/Hashicorp-Vertical_onLight.png?raw=true"/>
+<img alt="HashiCorp Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/hs/Hashicorp-Vertical_onLight.png?raw=true"/>
 </a>
 <a class="partner-item" data-name="CRS" href="crs.html">
-<img alt="CRS Logo" src="https://github.com/skunkworksza/www/blob/main/assets/crs/CRS-logo-GitHub.png?raw=true"/>
+<img alt="CRS Logo" src="https://github.com/Skunkworks-Africa/www/blob/main/assets/crs/CRS-logo-GitHub.png?raw=true"/>
 </a>
 </div>
 <div class="divider"></div>
@@ -447,19 +442,19 @@
 <div class="grid-container">
 <a href="./instructors.html">
 <div>
-<img alt="Instructors" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/user--expert.svg"/>
+<img alt="Instructors" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/user--expert.svg"/>
 <h3>+80 Instructors & Experts</h3>
 </div>
 </a>
 <a href="./partnerships.html">
 <div>
-<img alt="Partnerships" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/business--partnership.svg"/>
+<img alt="Partnerships" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/business--partnership.svg"/>
 <h3>+40 Strategic Partnerships</h3>
 </div>
 </a>
 <a href="./courses.html">
 <div>
-<img alt="Courses" class="service-icon" src="https://raw.githubusercontent.com/skunkworksza/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/book--courses.svg"/>
+<img alt="Courses" class="service-icon" src="https://raw.githubusercontent.com/Skunkworks-Africa/www/1e5918326b6a21672c73a0c07adb7b290fd434bf/assets/icons/book--courses.svg"/>
 <h3>+1000 Courses Offered</h3>
 </div>
 </a>
@@ -489,6 +484,7 @@
 <p>© 2024 Skunkworks. All rights reserved.</p>
 <p><a href="https://blog.skunkworks.africa/" target="_blank">Visit our blog</a></p>
 </footer>
+
 <script src="./js/formHandler.js"></script>
 <script>
     // JavaScript for mobile dropdown functionality
@@ -522,13 +518,5 @@
         }
     }
 </script>
-<script src="./js/partnerSearchFilter.js"></script>
-<script src="./js/partnerFilter.js"></script>
-<script src="./js/mobileDropdown.js"></script>
-<script src="./js/main.js"></script>
-<script src="./js/include-header.js"></script>
-<script src="./js/gulpfile.js"></script>
-<script src="./js/formHandeler.js"></script>
-<script src="./js/combinedPartnerFilter.js"></script>
 </body>
 </html>
